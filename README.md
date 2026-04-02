@@ -3,6 +3,14 @@
 ## Overview
 This project demonstrates API testing using Postman and Newman with automated validation.
 
+Automation Coverage
+API validation using Playwright request fixture
+Status code validation
+Response body validation
+
+Execution using Newman
+newman run collection.json -e environment.json
+
 ## Features
 - REST API testing
 - Status code validation
