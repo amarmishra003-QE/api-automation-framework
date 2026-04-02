@@ -8,4 +8,8 @@
   "dependencies": {
     "newman": "^6.0.0"
   }
+"scripts": {
+  "test": "newman run collection.json -e environment.json"
+}
+  
 }
