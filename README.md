@@ -11,6 +11,9 @@ Response body validation
 Execution using Newman
 newman run collection.json -e environment.json
 
+Run using shell script
+sh run.sh
+
 ## Features
 - REST API testing
 - Status code validation
