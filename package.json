@@ -1,0 +1,11 @@
+{
+  "name": "api-automation-framework",
+  "version": "1.0.0",
+  "description": "API automation using Postman and Newman",
+  "scripts": {
+    "test": "newman run collection.json -e environment.json"
+  },
+  "dependencies": {
+    "newman": "^6.0.0"
+  }
+}
