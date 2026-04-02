@@ -18,6 +18,14 @@ This project demonstrates API testing using Postman and Newman with automated va
 2. Run:
    newman run collection.json
 
+## Execution
+
+Run tests using Newman:
+
+```bash
+npm install
+npm test
+
 ## Author
 Amar Mishra
 amar301091@yahoo.com
